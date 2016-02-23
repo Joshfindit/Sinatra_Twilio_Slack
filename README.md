@@ -11,3 +11,6 @@ Connect Twilio and Slack together using Sinatra
 4. Add API keys and other configurations in to `config.yml`
 5. `bundle install`
 5. `ruby server.rb`
+
+
+*As a side bonus:* this script will handle Twilio voicemails at `/Twilio_Slack/voicemail`
