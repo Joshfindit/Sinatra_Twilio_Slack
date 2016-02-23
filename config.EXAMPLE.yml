@@ -1,0 +1,32 @@
+---
+
+# Server Base URL including http/https and without trailing slash
+serverBaseURL: "http://127.0.0.1:8080"
+
+# Add your slack token here
+slackToken: ''
+
+# The username that the bot will post as. It's suggested to use a combination of an identifier and the outgoing number
+slackBotUsername: ''
+
+# Each slash command has it's own token. If you've recreated my setup, you'll have 5:
+slackSlashCommandTokenSMS: ''
+slackSlashCommandTokenTXT: ''
+slackSlashCommandTokenS: ''
+slackSlashCommandTokenCall: ''
+slackSlashCommandTokenCallFrom: ''
+
+# Add your Twilio account SID here
+twilioAccountSID: ''
+
+# Add your Twilio Auth Token here
+twilioAuthToken: ''
+
+# This is the outside number for the main line. It will be the number that dials out, as well as the callerID shown to the receiver.
+twilioOutsideNumber: ''
+
+# A second line is needed if you want to do call-out conferencing (which is the case when using the /call* commands)
+twilioSecondOutsideNumber: ''
+
+# When a call is made to the twilioOutsideNumber, this is the number it will forward to. 
+myCurrentNumber: ''
