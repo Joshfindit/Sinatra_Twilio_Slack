@@ -3,7 +3,7 @@
 # Server Base URL including http/https and without trailing slash
 serverBaseURL: "http://127.0.0.1:8080"
 
-# Add your slack token here
+# Add your Slack API test token here
 slackToken: ''
 
 # The username that the bot will post as. It's suggested to use a combination of an identifier and the outgoing number
